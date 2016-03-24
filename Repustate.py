@@ -1,7 +1,7 @@
 import json
 from repustate import Repustate
 
-client = Repustate(api_key='85ef51d423a7fb245eddef56dbbdaacd366629e7', version='v3')
+client = Repustate(api_key=key, version='v3')
 client.sentiment("This is a great day to go for a run")
 
 
